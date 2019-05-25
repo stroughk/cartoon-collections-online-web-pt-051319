@@ -16,9 +16,14 @@ def summon_captain_planet(array) # code an argument here
   new_array
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+short_words = ["puff", "go", "two"]
+
+def long_planeteer_calls(short_words)
+ short_words.any? { |word| word.length > 4 }
 end
+
+print long_planeteer_calls(short_words)
+
 
 def find_the_cheese# code an argument here
   # the array below is here to help
