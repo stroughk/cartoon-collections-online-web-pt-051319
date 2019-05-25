@@ -8,7 +8,7 @@ end
 
 
 def summon_captain_planet(array) # code an argument here
- array.map {|word| word.capitalize + 
+ array.map {|word| word.capitalize + '!'}
 end
 
 short_words = ["puff", "go", "two"]
