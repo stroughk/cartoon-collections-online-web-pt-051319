@@ -1,19 +1,12 @@
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(array)    # code an argument here
-  array.each_with_index do |name, index|
-    puts "#{index+1} #{name}" 
-  end  # Your code here
+  array.each
 end
 
 
 def summon_captain_planet(array) # code an argument here
-  new_array = []
-  array.collect do |name|
-   new_array <<  name.capitalize
-    puts "#{name}!"
-  end
-  new_array
+ ar
 end
 
 short_words = ["puff", "go", "two"]
