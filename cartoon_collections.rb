@@ -22,6 +22,7 @@ print long_planeteer_calls(short_words)
 
 def find_the_cheese(array)  
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find do 
+  array.find do |cheese|
+    
   
 end
