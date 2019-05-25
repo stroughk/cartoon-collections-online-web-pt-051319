@@ -8,7 +8,7 @@ end
 
 
 def summon_captain_planet(array) # code an argument here
- ar
+ array.map 
 end
 
 short_words = ["puff", "go", "two"]
