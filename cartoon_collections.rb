@@ -20,7 +20,8 @@ end
 print long_planeteer_calls(short_words)
 
 
-def find_the_cheese(array_of_strings)  # code an argument here
-  array_of_strings.map.include? {|cheese| word=="gouda"}
+def find_the_cheese(array_of_strings)  
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
+  
 end
